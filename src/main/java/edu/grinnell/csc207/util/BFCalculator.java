@@ -1,9 +1,9 @@
 package edu.grinnell.csc207.util;
 
-import edu.grinnell.csc207.util.BigFraction;
-
 /**
  * Where most of the calculator lies; allows for values to be computed with the last entered values.
+ * 
+ * Author: Sam Schmidt
  */
 public class BFCalculator {
 
@@ -14,7 +14,6 @@ public class BFCalculator {
     * Retrieves the last computed value
     */
   public BigFraction get() {
-
     return prev;
   }
 

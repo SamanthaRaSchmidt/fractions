@@ -4,6 +4,8 @@ import java.math.BigInteger;
 
 /**
  * Makes BigFractions and has some operators like add, subtract, multiply, divide.
+ * 
+ * Author: Sam Schmidt
  */
 public class BigFraction {
   /** The numerator of the fraction. Can be positive, zero or negative. */
@@ -50,15 +52,9 @@ public class BigFraction {
    */
   public BigFraction(String str) {
     int length = str.length();
-    int indexOfSlash = 0;
+    int indexOfSlash = str.indexOf('/');
 
-    for (int i = 0; i < length; i++) {
-      if (str.charAt(i) == '/') {
-        indexOfSlash = i;
-      } // endif
-    } //end for
-
-    if (indexOfSlash == 0) {
+    if (indexOfSlash == -1) {
       int numInt = Integer.valueOf(str);
       this.num = BigInteger.valueOf(numInt);
       this.denom = BigInteger.valueOf(1);

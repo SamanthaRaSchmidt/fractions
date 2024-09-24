@@ -2,6 +2,8 @@ package edu.grinnell.csc207.util;
 
 /**
  * Will allow for the use of registers to store numbers and retrieve them.
+ * 
+ * Author Sam Schmidt
  */
 public class BFRegisterSet {
 

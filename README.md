@@ -20,3 +20,9 @@ I used https://stackoverflow.com/questions/6208348/how-do-i-compare-values-of-bi
         Additional help from https://stackoverflow.com/questions/36067589/should-i-use-mod-or-remainder-when-checking-a-biginteger-for-divisibility
 
 I used https://stackoverflow.com/questions/16850937/converting-a-part-of-a-char-array-to-string-in-java to help understand how to substring for parsing the string
+
+I used https://www.w3schools.com/java/ref_string_indexof.asp to help understand s.indexOf() for searching for a specific character in a string
+
+I used https://www.w3schools.com/java/java_switch.asp for the syntax of a switch statement
+
+I used https://www.simplilearn.com/tutorials/java-tutorial/substring-in-java for understanding substrings
