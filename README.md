@@ -6,6 +6,9 @@ A Project for CSC-207 2024Fa.
 
 Creates both simple and more complex calculators with fractions
 
+NOTE
+I am aware that QuickCalculator and Interactive Calculator are not fully finished; I am applying the rule of "there's more to life than CS" on this project and turning in what I have now in order to finish it better later. Interactive Calculator, for instance, only currently works with addition.
+
 CITATIONS
 
 https://github.com/SamanthaRaSchmidt/fractions
